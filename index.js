@@ -66,3 +66,25 @@ const questions = [
     }
 ];
 
+// function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (error) {
+        if (error) {
+            return console.log(error);
+        }
+        else {
+            return console.log("README sucessfully generated");
+        }
+    });
+}
+
+// function to initialize program
+function init() {
+    inquirer.prompt(questions)
+        .then(function (data) {
+            writeToFile("demoREADME.md", generateMarkdown(data));
+        });
+}
+
+// function call to initialize program
+init();
