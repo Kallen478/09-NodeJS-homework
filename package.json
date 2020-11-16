@@ -1,0 +1,27 @@
+{
+  "name": "09-nodejs-homework",
+  "version": "1.0.0",
+  "description": "User Story: AS A developer I WANT a README generator SO THAT can quickly create a professional README for a new project <hr>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Allen",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "inquirer": "^6.5.2",
+    "moment": "^2.27.0",
+    "weatherman": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kallen478/09-NodeJS-homework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kallen478/09-NodeJS-homework/issues"
+  },
+  "homepage": "https://github.com/Kallen478/09-NodeJS-homework#readme"
+}
